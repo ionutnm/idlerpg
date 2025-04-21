@@ -6,7 +6,7 @@
                     if ($#arg < 8 || $arg[8] eq "") {
                         privmsg("Try: ADDPLAYER <ircnick> <hostname> <char name> <password> <class>",
                                 $usernick);
-                        privmsg("IE : ADDPLAYER Poseidon God\@of.the.Sea Poseidon MyPassword God of the Sea",$usernick);
+                        privmsg("IE : ADDPLAYER Poseidon God@of.the.Sea Poseidon MyPassword God of the Sea",$usernick);
                     }
                     elsif ($pausemode) {
                         privmsg("Sorry, new accounts may not be registered ".
